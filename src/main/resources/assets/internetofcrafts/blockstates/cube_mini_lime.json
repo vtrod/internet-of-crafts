@@ -1,0 +1,36 @@
+{
+  "variants": {
+
+    "face=ceiling": {
+      "model": "internetofcrafts:block/cube_mini_lime",
+      "x": 180
+    },
+
+    "face=floor": {
+      "model": "internetofcrafts:block/cube_mini_lime"
+    },
+
+    "face=wall,facing=north": {
+      "model": "internetofcrafts:block/cube_mini_lime",
+      "x": 90
+    },
+
+    "face=wall,facing=south": {
+      "model": "internetofcrafts:block/cube_mini_lime",
+      "x": 90,
+      "y": 180
+    },
+
+    "face=wall,facing=west": {
+      "model": "internetofcrafts:block/cube_mini_lime",
+      "x": 90,
+      "y": 270
+    },
+
+    "face=wall,facing=east": {
+      "model": "internetofcrafts:block/cube_mini_lime",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

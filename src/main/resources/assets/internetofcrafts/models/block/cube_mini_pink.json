@@ -1,0 +1,8 @@
+{
+  "parent": "internetofcrafts:block/cube_mini",
+	"textures": {
+		"0": "block/pink_wool",
+		"1": "block/light_gray_shulker_box",
+		"particle": "block/pink_wool"
+	}
+}
