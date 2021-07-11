@@ -12,6 +12,7 @@ import net.minecraft.util.registry.Registry;
 
 public class InternetOfCrafts implements ModInitializer {
 
+  // this block of code just makes the onInitialize() a bit neater (a lot neater)
   public static final MiniDeviceBlock CUBE_MINI_BLACK = new MiniDeviceBlock(Block.Settings.of(Material.WOOL).strength(0.8f, 3f));
   public static final MiniDeviceBlock CUBE_MINI_BLUE = new MiniDeviceBlock(Block.Settings.of(Material.WOOL).strength(0.8f, 3f));
   public static final MiniDeviceBlock CUBE_MINI_BROWN = new MiniDeviceBlock(Block.Settings.of(Material.WOOL).strength(0.8f, 3f));
@@ -29,6 +30,8 @@ public class InternetOfCrafts implements ModInitializer {
   public static final MiniDeviceBlock CUBE_MINI_WHITE = new MiniDeviceBlock(Block.Settings.of(Material.WOOL).strength(0.8f, 3f));
   public static final MiniDeviceBlock CUBE_MINI_YELLOW = new MiniDeviceBlock(Block.Settings.of(Material.WOOL).strength(0.8f, 3f));
 
+  // onInitialize() to register all of the blocks/items
+  // at some stage, should set up a separate ItemGroup for the mod
   @Override
   public void onInitialize() {
     Registry.register(Registry.BLOCK, new Identifier("internetofcrafts", "cube_mini_black"), CUBE_MINI_BLACK);
